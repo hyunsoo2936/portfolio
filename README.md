@@ -5,14 +5,14 @@
 
 # hyunsoo 폴더 설명 
 
-1. EDA 결과 최종으로 활용된 feature 정리 폴더 
+# 1. EDA 결과 최종으로 활용된 feature 정리 폴더 
 
-1) Primetime_new 
+## 1) Primetime_new 
 - 시간대별 prime time을 전체 매출액에서 -> 요일별로 세분화하여 추이 분석 
 - 통계 내는 과정에서 일부 시간대(17-18시)에 방송 노출분이 급격히 하락하는 부분 확인 -> 전처리 과정에서 무형 상품 제거로 인해 나타났음을 확인 
 - sum 기준이 아닌 방송 시간대별 평균 매출액(mean)으로 문제점 보완
 
-2) economic_indicator 
+## 2) economic_indicator 
 출처 : 한국은행 경제통계시스템 (https://ecos.bok.or.kr/)
 
 - 분석 목적 : 2020년 test data에서 경기 변화를 반영할 수 있는 feature로 적용하기 위함
@@ -26,14 +26,14 @@
 
 
 
-2. EDA 과정 폴더 
+# 2. EDA 과정 폴더 
 
-1) eda_Time serise1 
+## 1) eda_Time serise1 
 - 시간대별 매출, 판매량 등의 전반적인 탐색적 데이터 분석 시작 
 - 2019년과 예측시점인 2020년의 6월 편성의 변화를 확인하기 위해 그래프 도출 
 
 
-2) EDA_Time series2 & economic
+## 2) EDA_Time series2 & economic
 - prime time 요일별 추가 탐색 
 - 선정되지 않은 경제지표 탐색 과정 포함 
 
